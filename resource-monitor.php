@@ -57,6 +57,8 @@ class Resource_Host_Monitor extends Resource_Host_Monitor_Plugin {
 
 		// Report analyzers
 		require_once dirname( __FILE__ ) . '/classes/Analyzer.php';
+		require_once dirname( __FILE__ ) . '/classes/Analyzer_HTTPS.php';
+		$this->analyzers->add( new Resource_Host_Monitor_Analyzer_HTTPS );
 
 	}
 
