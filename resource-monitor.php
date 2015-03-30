@@ -2,7 +2,7 @@
 /*
 Plugin Name: Resource Host Monitor
 Description: 
-Version:     1.0.0
+Version:     0.1.0
 Author:      John Blackbourn
 Author URI:  https://johnblackbourn.com/
 Text Domain: resource-host-monitor
