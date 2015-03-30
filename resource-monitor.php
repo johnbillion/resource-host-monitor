@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Resource Host Monitor
-Description: 
+Description: Records the host names of third party resources on your site and performs analysis on the hosts for quality control and curiosity purposes.
 Version:     0.1.0
 Author:      John Blackbourn
 Author URI:  https://johnblackbourn.com/
