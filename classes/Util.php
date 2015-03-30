@@ -1,6 +1,6 @@
 <?php
 
-abstract class Resource_Host_Monitor_Util {
+class Resource_Host_Monitor_Util {
 
 	public static function is_valid_uri( $uri ) {
 		$response = wp_remote_get( $uri, array(
