@@ -2,7 +2,7 @@
 
 # Resource Host Monitor #
 
-Resource Host Monitor is a plugin for WordPress which records the host names of any third party resources on your site (for example, JavaScript files, CSS files, images, and fonts), and then performs analysis on the hosts for quality control and curiosity purposes.
+Resource Host Monitor is a plugin for WordPress which records the host names of any third party resources (for example, JavaScript files, CSS files, images, and fonts) on your site, and then performs analysis on the hosts for quality control and curiosity purposes.
 
 Currently, RHM performs the following analysis on the hosts that it records:
 
@@ -11,7 +11,7 @@ Currently, RHM performs the following analysis on the hosts that it records:
 
 Analysis is queued and performed asynchronously, and in the case of the SSL Labs report, performed with rate limiting in place to keep everyone happy.
 
-RHM began life as an idea for an enhancement to the [HTTPS Mixed Content Detector plugin](https://github.com/tollmanz/wordpress-https-mixed-content-detector/). Over time, the two plugins may end up interfacing with each other if they're both are installed on the same site.
+RHM began life as an idea for an enhancement to the [HTTPS Mixed Content Detector plugin](https://github.com/tollmanz/wordpress-https-mixed-content-detector/). Over time, the two plugins may end up interfacing with each other if they're both installed on the same site.
 
 # Contributing #
 
